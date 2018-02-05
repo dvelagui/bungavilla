@@ -50,7 +50,7 @@ a img {
   border-bottom: 2px solid rgba(196, 192, 193, 0.77);
 }
 
-#container {
+.container {
   max-width: 1000px;
   background-color: white;
   position: relative;
@@ -81,6 +81,10 @@ a img {
   list-style-type: none;
 }
 
+element.style {
+  margin-top: 0;
+}
+
 .image-container {
   background-image: url("../images/paisaje.jpeg");
   background-repeat: no-repeat;
@@ -92,25 +96,23 @@ a img {
   border: 1px solid rgba(196, 192, 193, 0.77);
   padding: 21px;
   color: #f513a5;
-  ;
   font-family: "Althea";
   font-size: 25px;
   z-index: 3;
   background-color: rgba(255, 254, 254, 0.8);
   font-weight: 600;
   margin-left: 30px;
-  border-radius: 100%;
 }
 
 .orbit-slide {
-  height: 450px;
-  max-width: 1000px;
+  height: 550px;
+  /* max-width: 1000px; */
   align-items: center;
 }
 
-.orbit {
+/* .orbit {
   margin-top: 10px;
-}
+} */
 
 #buganvilla {
   margin-top: 10px;
@@ -184,6 +186,10 @@ a img {
 
 #room .services {
   margin-top: 32px;
+}
+
+#bedrooms .tabs-container {
+  margin: 0 auto;
 }
 
 #bedrooms {
