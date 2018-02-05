@@ -186,9 +186,13 @@ a img {
   margin-top: 32px;
 }
 
-#bedrooms {
-  display: flex;
-  justify-content: space-around;
+#bedrooms .tabs-title {
+  display: inline-block;
+  float: none;
+}
+
+#bedrooms ul .is-active a {
+  color: #258faf;
 }
 
 #bedrooms a {
@@ -199,4 +203,10 @@ a img {
 
 #bedrooms a:hover {
   color: #2ba6cb;
+}
+
+footer {
+  background-color: rgb(205, 208, 219);
+  border: 1px solid grey;
+  height: 200px;
 }
