@@ -186,6 +186,10 @@ a img {
   margin-top: 32px;
 }
 
+#bedrooms {
+  margin-top: 50px;
+}
+
 #bedrooms .tabs-title {
   display: inline-block;
   float: none;
@@ -203,6 +207,15 @@ a img {
 
 #bedrooms a:hover {
   color: #2ba6cb;
+}
+
+#bedrooms img {
+  height: 369px;
+  max-width: none;
+}
+
+.tabs, .tabs-content {
+  border: none;
 }
 
 footer {
