@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Lost";
+  src: url("../fonts/Lost.ttf");
+}
+
+@font-face {
+  font-family: "Althea";
+  src: url("../fonts/Althea.ttf");
+}
+
+body {
+  background-color: white;
+}
+
+/* .row {
+  border: 1px solid red;
+} */
+
+.column {
+  /* border: 1px solid blue; */
+  margin-top: 10px;
+}
+
+.container-header {
+  max-width: 1000px;
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+}
+
+#logo-container {
+  border-bottom: 2px solid rgba(196, 192, 193, 0.77);
+}
+
+/* .menu-container {
+  align-items: bottom;
+} */
+
+.menu li a {
+  color: #f513a5;
+  font-family: "Althea";
+  font-size: 25px;
+}
+
+.menu .submenu-container li a:hover {
+  color: #2ba6cb;
+}
+
+.submenu-container {
+  border: 0;
+  list-style-type: none;
+}
+
+.image-container {
+  background-image: url("../images/paisaje.jpeg");
+  background-repeat: no-repeat;
+  height: 584px;
+}
+
+.orbit-slide {
+  height: 450px;
+  max-width: 1000px;
+  align-items: center;
+}
+
+.orbit {
+  margin-top: 10px;
+}

@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Lost";
+  src: url("../fonts/Lost.ttf");
+}
+
+@font-face {
+  font-family: "Althea";
+  src: url("../fonts/Althea.ttf");
+}
+
+body .background-buganvilla {
+  /* background-image: url("../images/backRight.png");
+  background-repeat: no-repeat; */
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#srights {
+  display: inline-flex;
+  position: fixed;
+  align-items: flex-end;
+  padding: 5px 5px;
+  top: 90%;
+  height: auto;
+  opacity: 0.9;
+  margin: 0 1px;
+  z-index: 99;
+  transition: 300ms;
+}
+
+#srights a:hover {
+  opacity: 0.5;
+}
+
+a img {
+  margin-right: 5px;
+}
+
+/* .column {
+  border: 1px solid blue;
+}
+
+.row {
+  border: 1px solid red;
+} */
+
+#logo-container .column {
+  margin-top: 10px;
+  border-bottom: 2px solid rgba(196, 192, 193, 0.77);
+}
+
+#container {
+  max-width: 1000px;
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+}
+
+#social-container .c2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* .menu-container {
+  align-items: bottom;
+} */
+
+.menu li a {
+  color: #f513a5;
+  font-family: "Althea";
+  font-size: 25px;
+}
+
+.menu .submenu-container li a:hover {
+  color: #2ba6cb;
+}
+
+.submenu-container {
+  border: 0;
+  list-style-type: none;
+}
+
+.image-container {
+  background-image: url("../images/paisaje.jpeg");
+  background-repeat: no-repeat;
+  height: 584px;
+}
+
+#button-action {
+  position: fixed;
+  border: 1px solid rgba(196, 192, 193, 0.77);
+  padding: 21px;
+  color: #f513a5;
+  ;
+  font-family: "Althea";
+  font-size: 25px;
+  z-index: 3;
+  background-color: rgba(255, 254, 254, 0.8);
+  font-weight: 600;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.orbit-slide {
+  height: 450px;
+  max-width: 1000px;
+  align-items: center;
+}
+
+.orbit {
+  margin-top: 10px;
+}
+
+#buganvilla {
+  margin-top: 10px;
+  border-top: 2px solid rgba(196, 192, 193, 0.77);
+  padding-top: 10px;
+}
+
+#buganvilla h1 {
+  font-size: 40px;
+}
+
+#buganvilla h2 {
+  margin-top: 20px;
+  color: #484848;
+  font-size: 20px;
+  font-family: "Althea";
+  text-align: justify;
+}
+
+#buganvilla .location iframe {
+  width: 100%;
+}
+
+.data-sticky {
+  width: 200%;
+  background-color: rgba(255, 254, 254, 0.8);
+  z-index: 2;
+}
+
+#room h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  border-top: 2px solid rgba(196, 192, 193, 0.77);
+  padding-top: 10px;
+}
+
+#room .subtitle {
+  margin-top: 40px;
+  padding-left: -10px;
+}
+
+#room .title-room {
+  background-color: rgba(172, 169, 169, 0.5);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  padding: 0px 5px;
+  text-shadow: 2px;
+}
+
+#room .price-room {
+  color: #484848;
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-shadow: 2px;
+  margin-top: 20px;
+}
+
+#room .terms {
+  font-size: 12px;
+}
+
+#room ul li {
+  font-size: 18px;
+  list-style-type: none;
+  padding: 0 20px 20px 0;
+  color: #484848;
+  font-size: 18px;
+  text-shadow: 2px;
+}
+
+#room .services {
+  margin-top: 32px;
+}
+
+#bedrooms {
+  display: flex;
+  justify-content: space-around;
+}
+
+#bedrooms a {
+  color: #f513a5;
+  font-family: "Althea";
+  font-size: 20px;
+}
+
+#bedrooms a:hover {
+  color: #2ba6cb;
+}
