@@ -263,6 +263,13 @@ element.style {
   background-image: url("../images/caminata.jpg");
 }
 
+#img-cabalgata {
+  width: 100%;
+  height: 100%;
+  /*sólo para ejemplo*/
+  background-image: url("../images/cabalgata.jpg");
+}
+
 #info {
   position: relative;
   overflow: hidden;
@@ -271,6 +278,7 @@ element.style {
   background-color: rgba(31, 31, 31, 0.9);
   opacity: 0;
   transition: opacity 0.3s;
+  margin: auto 0;
 }
 
 #img-ciclismo:hover #info {
@@ -278,6 +286,10 @@ element.style {
 }
 
 #img-caminata:hover #info {
+  opacity: 1;
+}
+
+#img-cabalgata:hover #info {
   opacity: 1;
 }
 
@@ -298,30 +310,37 @@ element.style {
   margin-left: 105px;
 }
 
+#img-cabalgata:hover #headline {
+  margin-left: 105px;
+}
+
 #descripcion {
   color: white;
   font-size: 1rem;
   text-align: center;
   transition: margin-top 0.4s;
-  padding: auto 10px;
-}
-
-#img-ciclismo:hover #descripcion {
-  margin-top: 85px;
-  padding: auto 10px;
+  margin-top: 100px;
+  padding: 10px;
 }
 
 #img-caminata:hover #descripcion {
   margin-top: 85px;
-  padding: auto 10px;
+}
+
+#img-ciclismo:hover #descripcion {
+  margin-top: 85px;
+}
+
+#img-cabalgata:hover #descripcion {
+  margin-top: 85px;
 }
 
 #title-p {
   color: white;
   font-size: 20px;
-  margin-top: -70px;
+  margin-top: -50px;
   background-color: rgba(31, 31, 31, 0.9);
-  padding: 25px;
+  padding: 10px;
 }
 
 /* EXPERIENCIAS */
@@ -330,21 +349,8 @@ element.style {
   margin-top: 10px;
 }
 
-#experiencias figcaption {
-  position: static;
-}
-
 #experiencias .column {
   border: 1px solid rgb(187, 185, 185);
-}
-
-#eperiencias img {
-  opacity: 0.5;
-  transition: 1000ms;
-}
-
-#eperiencias img:hover {
-  opacity: 1;
 }
 
 #experiencias .info {
