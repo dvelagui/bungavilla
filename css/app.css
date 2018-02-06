@@ -91,6 +91,10 @@ element.style {
   height: 584px;
 }
 
+#scrollSticky a:hover {
+  color: #2ba6cb;
+}
+
 #button-action {
   position: fixed;
   border: 1px solid rgba(196, 192, 193, 0.77);
@@ -102,6 +106,16 @@ element.style {
   background-color: rgba(255, 254, 254, 0.8);
   font-weight: 600;
   margin-left: 30px;
+  transition: 1s;
+}
+
+.latido {
+  transform: scale(1);
+  transform: scale(1);
+  transform: scale(.9);
+  transform: scale(1.1);
+  transform: scale(.9);
+  transform: scale(1);
 }
 
 .orbit-slide {
@@ -146,7 +160,7 @@ element.style {
   z-index: 2;
 }
 
-#room h1 {
+#room h1, #experiencias h1, #restaurantes h1, #formulario h1 {
   font-size: 40px;
   margin-top: 10px;
   border-top: 2px solid rgba(196, 192, 193, 0.77);
@@ -245,7 +259,16 @@ element.style {
   border: 1px solid rgb(187, 185, 185);
 }
 
-footer {
+#eperiencias img {
+  opacity: 0.5;
+  transition: 1000ms;
+}
+
+#eperiencias img:hover {
+  opacity: 1;
+}
+
+.footer {
   background-color: rgb(205, 208, 219);
   border: 1px solid grey;
   height: 200px;
