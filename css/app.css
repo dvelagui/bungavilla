@@ -360,6 +360,49 @@ element.style {
   margin: auto 10px;
 }
 
+#restaurantes h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info-restaurantes p {
+  font-size: 14px;
+  font-style: italic;
+  margin: 0;
+}
+
+#restaurantes .column {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#restaurantes img {
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+}
+
+#restaurantes .info-restaurantes {
+  margin: auto 10px;
+}
+
+#restaurantes .tipo-comida p {
+  margin-bottom: 2px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#restaurantes .tipo-comida ul {
+  margin-bottom: 0;
+}
+
+#restaurantes .tipo-comida li {
+  font-size: 13px;
+  font-style: italic;
+}
+
 .footer {
   background-color: rgb(205, 208, 219);
   border: 1px solid grey;
