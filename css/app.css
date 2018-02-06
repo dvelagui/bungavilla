@@ -375,13 +375,13 @@ element.style {
 #restaurantes .column {
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  padding: 10px 5px;
 }
 
 #restaurantes img {
   height: 100%;
   width: 100%;
-  margin: auto 0;
+  padding: 10px 0;
 }
 
 #restaurantes .info-restaurantes {
