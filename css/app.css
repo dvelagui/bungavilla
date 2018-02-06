@@ -97,7 +97,7 @@ element.style {
 
 #button-action {
   position: fixed;
-  border: 1px solid rgba(196, 192, 193, 0.77);
+  border: 1px solid rgba(255, 254, 254, 0.8);
   padding: 21px;
   color: #f513a5;
   font-family: "Althea";
@@ -247,6 +247,85 @@ element.style {
   border: none;
 }
 
+/* EXPERIENCIAS */
+
+#img-ciclismo {
+  width: 100%;
+  height: 100%;
+  /*sólo para ejemplo*/
+  background-image: url("../images/ciclismo.jpg");
+}
+
+#img-caminata {
+  width: 100%;
+  height: 100%;
+  /*sólo para ejemplo*/
+  background-image: url("../images/caminata.jpg");
+}
+
+#info {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#img-ciclismo:hover #info {
+  opacity: 1;
+}
+
+#img-caminata:hover #info {
+  opacity: 1;
+}
+
+#headline {
+  color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -75px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+}
+
+#img-ciclismo:hover #headline {
+  margin-left: 75px;
+}
+
+#img-caminata:hover #headline {
+  margin-left: 105px;
+}
+
+#descripcion {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  transition: margin-top 0.4s;
+  padding: auto 10px;
+}
+
+#img-ciclismo:hover #descripcion {
+  margin-top: 85px;
+  padding: auto 10px;
+}
+
+#img-caminata:hover #descripcion {
+  margin-top: 85px;
+  padding: auto 10px;
+}
+
+#title-p {
+  color: white;
+  font-size: 20px;
+  margin-top: -70px;
+  background-color: rgba(31, 31, 31, 0.9);
+  padding: 25px;
+}
+
+/* EXPERIENCIAS */
+
 #experiencias .row {
   margin-top: 10px;
 }
@@ -266,6 +345,13 @@ element.style {
 
 #eperiencias img:hover {
   opacity: 1;
+}
+
+#experiencias .info {
+  background-color: rgb(233, 230, 230);
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.75);
+  margin: auto 10px;
 }
 
 .footer {
