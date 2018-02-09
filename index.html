@@ -15,7 +15,7 @@
     <!-- <div class="background-buganvilla"> <img src="../images/backRight.png" alt="buganvillas"> </div> -->
     <section class="container" id="header">
       <!-- social -->
-      <div class="social" id="srights">
+      <div class="social" id="sleft">
         <div class="socials small-1 shrink">
           <a target="_blank" href="#" class="" title="Facebook">
             <img src="images/fb.png" alt="facebook" width="40">
@@ -154,7 +154,7 @@
             </div>
 
             <div class="column small-12 medium-5 align-self-middle location">
-              <div class="location" data-interchange="[assets/map-small.html, small], [assets/map.html, medium]"></div>
+              <div class="location" data-interchange="[assets/map.html, small], [assets/map.html, medium]"></div>
             </div>
           </div>
         </section>
@@ -511,11 +511,16 @@
               <h1 class="contact-us-header">Contacta para Reservar</h1>
 
               <ul class="contact-us-list">
-                <li class="address">Calle siempre viva No. 123, Jenesano-Boyacá</li>
+                <li class="address">
+                  <i class="fi-address-book"></i>
+                  Calle siempre viva No. 123, Jenesano-Boyacá</li>
                 <li class="email">
-                  <a href="mailto:">contacto@hospedajebuganvilla.com</a>
+                  <i class="fi-mail"></i>
+                  <a href="mailto:">
+                    contacto@hospedajebuganvilla.com</a>
                 </li>
                 <li class="phone">
+                  <i class="fi-telephone"></i>
                   (57) 320 8467809
                 </li>
               </ul>
@@ -525,10 +530,16 @@
             </div>
             <div class="columns contact-us-section-right">
               <h1 class="contact-us-header">Te Contactamos</h1>
-              <form class="contact-us-form">
+              <form class="contact-us-form" novalidate="novalidate" data-abide="data-abide">
+                <div data-abide-error="data-abide-error" class="row column small-12 medium-6 text-center" style="display:none">
+                  <p>
+                    <i class="fi-alert">
+                      Ingresa un correo electronico valido</i>
+                  </p>
+                </div>
                 <input type="text" placeholder="Nombre Completo">
                 <input type="number" placeholder="Telefono de Contacto">
-                <input type="email" placeholder="Correo Electronico">
+                <input type="email" placeholder="Correo Electronico" required="required">
                 <textarea name="message" id="" rows="8" placeholder="Dejanos saber tus inquietudes"></textarea>
                 <div class="contact-us-form-actions">
                   <input type="submit" class="button" value="Enviar"/>
