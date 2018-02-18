@@ -422,6 +422,9 @@ element.style {
 }
 
 @media screen and (max-width: 640px) {
+  #logo-container .img {
+    margin: 0 auto;
+  }
   #button-action {
     padding: 15px;
     font-size: 20px;
