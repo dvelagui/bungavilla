@@ -12,553 +12,592 @@
     <link rel="stylesheet" href="icons\foundation-icons.css">
   </head>
   <body>
-    <!-- <div class="background-buganvilla"> <img src="../images/backRight.png" alt="buganvillas"> </div> -->
-    <section class="container" id="header">
-      <!-- social -->
-      <div class="social" id="sleft">
-        <div class="socials small-1 shrink">
-          <a target="_blank" href="#" class="" title="Facebook">
-            <img src="images/fb.png" alt="facebook" width="40">
-          </a>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="data-off-canvas-wrapper">
+        <div id="offCanvas" class="off-canvas  position-up" data-off-canvas="data-off-canvas">
+          <nav data-magellan="data-magellan">
+            <ul class="vertical menu">
+              <li>
+                <a href="#buganvilla">
+                  <i class="fi-home"></i>
+                  Buganvilla</a>
+              </li>
+              <li>
+                <a href="#room">
+                  <i class="fi-photo"></i>
+                  Habitaciones</a>
+              </li>
+              <li>
+                <a href="#experiencias">
+                  <i class="fi-mountains"></i>
+                  Experiencias</a>
+              </li>
+              <li>
+                <a href="#restaurantes">
+                  <i class="fi-marker"></i>
+                  Restaurantes</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="socials small-1 c2 shrink">
-          <a target="_blank" href="#" class="" title="Instagram">
-            <img src="images/it.png" alt="instagram" height="10" width="40">
-          </a>
-        </div>
-        <div class="socials small-1 shrink align-self-middle">
-          <a target="_blank" href="#" class="" title="YouTube">
-            <img src="images/yt.png" alt="youtube" width="40">
-          </a>
-        </div>
-      </div>
-      <!-- social -->
-      <div id="logo-container">
-        <div class="row small-collapse medium-uncollapse">
-          <!-- logo -->
-          <div class="column  small-12 medium-3">
-            <img src="images/logo.png" width="250" alt="Buganvilla">
-          </div>
-          <!-- logo -->
-          <!-- menu -->
-          <div class="column small-12 medium-9 align-self-bottom column-menu">
-            <div id="scrollSticky" data-sticky-container="data-sticky-container">
-              <div class="data-sticky" data-sticky="data-sticky" data-sticky-on="small" data-top-anchor="scrollSticky">
+        <div class="off-canvas-content" data-off-canvas-content="data-off-canvas-content">
+          <section class="container" id="header">
+            <!-- social -->
+            <div class="social" id="sleft">
+              <div class="socials small-1 shrink">
+                <a target="_blank" href="#" class="" title="Facebook">
+                  <img src="images/fb.png" alt="facebook" width="40">
+                </a>
+              </div>
+              <div class="socials small-1 c2 shrink">
+                <a target="_blank" href="#" class="" title="Instagram">
+                  <img src="images/it.png" alt="instagram" height="10" width="40">
+                </a>
+              </div>
+              <div class="socials small-1 shrink align-self-middle">
+                <a target="_blank" href="#" class="" title="YouTube">
+                  <img src="images/yt.png" alt="youtube" width="40">
+                </a>
+              </div>
+            </div>
+            <!-- social -->
+            <div id="logo-container">
+              <div class="row small-collapse medium-uncollapse">
+                <!-- logo -->
+                <div class="column  small-12 medium-3">
+                  <img src="images/logo.png" width="250" alt="Buganvilla">
+                </div>
+                <!-- logo -->
+                <!-- menu -->
+                <div class="column small-12 medium-9 align-self-bottom column-menu">
+                  <div id="scrollSticky" data-sticky-container="data-sticky-container">
+                    <div class="data-sticky" data-sticky="data-sticky" data-sticky-on="small" data-top-anchor="scrollSticky">
+                      <nav id="menu" data-magellan="data-magellan">
+                        <ul class="menu icon-top  align-spaced show-for-small-only" data-dropdown-menu="data-dropdown-menu">
+                          <li>
+                            <a href="#" data-toggle="offCanvas">
+                              <i class="fi-home"></i>Menu</a>
+                            <!-- <ul class="submenu-container"> <li> <a href="#buganvilla">Historia</a> </li> <li> <a href="#">Galeria</a> </li> </ul> -->
+                          </li>
+                        </ul>
+                        <ul class="menu icon-top dropdown align-spaced show-for-medium" data-dropdown-menu="data-dropdown-menu">
+                          <li>
+                            <a href="#buganvilla">
+                              <i class="fi-home"></i>Buganvilla</a>
+                            <!-- <ul class="submenu-container"> <li> <a href="#buganvilla">Historia</a> </li> <li> <a href="#">Galeria</a> </li> </ul> -->
+                          </li>
+                          <li>
+                            <a href="#room">
+                              <i class="fi-photo"></i>Habitaciones</a>
+                            <!-- <ul class="submenu-container"> <li> <a href="#room">Pequeña</a> </li> <li> <a href="#room">Mediana</a> </li> <li> <a href="#room">Grande</a> </li> </ul> -->
+                          </li>
+                          <li>
+                            <a href="#experiencias">
+                              <i class="fi-mountains"></i>Experiencias</a>
+                            <!-- <ul class="submenu-container"> <li> <a href="#">Ciclismo</a> </li> <li> <a href="#">Caminatas</a> </li> <li> <a href="#">Pesca</a> </li> </ul> -->
+                          </li>
+                          <li>
+                            <a href="#restaurantes">
+                              <i class="fi-marker"></i>Restaurantes</a>
+                            <!-- <ul class="submenu-container"> <li> <a href="#">Jenesano</a> </li> <li> <a href="#">Alrededores</a> </li> </li> </ul> -->
+                          </li>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- menu -->
+                </div>
+              </div>
+              <!-- reserver -->
+              <div class="button-action latido" data-sticky="data-sticky" data-top-anchor="orbit-container">
+                <a href="#formulario" id="button-action" class="fi-shopping-bag" type="button" name="button">
+                  Reserva Ahora!
+                </a>
+              </div>
+              <!-- reserver -->
+            </section>
+            <section id="orbit-container">
+              <!-- orbit -->
+              <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit="data-orbit">
+                <div class="orbit-wrapper">
+                  <div class="orbit-controls">
+                    <button class="orbit-previous">
+                      <span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                    <button class="orbit-next">
+                      <span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                  </div>
+                  <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                      <figure class="orbit-figure">
+                        <img class="orbit-image" src="images/paisaje.jpeg" alt="paisaje">
+                        <figcaption class="orbit-caption">Vista Exterior BuganVilla.</figcaption>
+                      </figure>
+                    </li>
+                    <li class="orbit-slide">
+                      <figure class="orbit-figure">
+                        <img class="orbit-image" src="images/2.jpg" alt="Sala">
+                        <figcaption class="orbit-caption">Sala de Descanso</figcaption>
+                      </figure>
+                    </li>
+                    <li class="orbit-slide">
+                      <figure class="orbit-figure">
+                        <img class="orbit-image" src="images/camping.webp" alt="camping">
+                        <figcaption class="orbit-caption">Zona de Camping</figcaption>
+                      </figure>
+                    </li>
+                    <li class="orbit-slide">
+                      <figure class="orbit-figure">
+                        <img class="orbit-image" src="images/chimenea.webp" alt="chimenea">
+                        <figcaption class="orbit-caption">Chimeneas</figcaption>
+                      </figure>
+                    </li>
+                  </ul>
+                </div>
+                <nav class="orbit-bullets">
+                  <button class="is-active" data-slide="0">
+                    <span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                  <button data-slide="1">
+                    <span class="show-for-sr">Second slide details.</span></button>
+                  <button data-slide="2">
+                    <span class="show-for-sr">Third slide details.</span></button>
+                  <button data-slide="3">
+                    <span class="show-for-sr">Fourth slide details.</span></button>
+                </nav>
+              </div>
+            </section>
+            <!-- orbit -->
+            <!-- History -->
+            <section class="container" id="buganvilla" data-magellan-target="buganvilla">
+              <div class=" row">
+                <div class="column small-12 medium-7">
+                  <h1>
+                    Jenesano / Finca Buganvilla</h1>
+                  <h2>
+                    En el año de 1833 el Presbítero Andrés María Gallo determino Bautizar el poblado "Genezzano" recordando a un poblado Italiano, que es muy parecido al nombre actual (Jenesano, Boyacá). El Nombre proviene del latín Gen Sana que significa gente sana.
+                  </h2>
+                  <h2>
+                    En 1999 Jenesano es declarado por el fondo mixto de cultura de Boyacá como el "pueblo más lindo de Boyacá". Debido a la calidez de sus gentes, clima, paisaje, la estética urbana y las muestras culturales locales.
+                  </h2>
+                  <h2>
+                    Se encuentra ubicado en la Provincia de Márquez del departamento de Boyacá. Está a una distancia de 30 km de Tunja. Este municipio limíta al occidente con Nuevo Colón, al oriente con Ramiriquí, al norte con el municipio de Boyacá y al sur con Tibaná.
 
-                <nav data-magellan="data-magellan">
-                  <ul class="menu icon-top dropdown align-spaced" data-dropdown-menu="data-dropdown-menu">
+                  </h2>
+                  <h2>
+                    Finca BuganVilla es una hermosa villa ubicada a 5 minutos de Jenesano Boyaca. Ambiente familiar, zonas verdes, zona de camping, chimeneas, acceso al río, zona de cultivos, clima cálido-templado, servicio de restaurante, variedad de aves, juegos de
+                    mesa, rana y mucho mas!
+                  </h2>
+                </div>
+
+                <div class="column small-12 medium-5 align-self-middle location">
+                  <div class="location" data-interchange="[assets/map.html, small], [assets/map.html, medium]"></div>
+                </div>
+              </div>
+            </section>
+            <!-- History -->
+            <!-- services -->
+            <section class="container" id="room" data-magellan-target="room">
+              <h1>
+                Habitaciones Buganvilla</h1>
+              <div class="row subtitle collapse">
+                <div class="column medium-6">
+                  <h3 class="title-room">Precio persona/noche en cualquier acomodacion:
+                  </h3>
+                </div>
+                <div class="column medium-6">
+                  <h3 class="title-room">Servicios:
+                  </h3>
+                </div>
+              </div>
+              <div class="row collapse">
+                <div class="column small-12 medium-6">
+
+                  <h3 class="price-room">Desde $15.000 la noche en zona de camping*
+                  </h3>
+                  <h3 class="price-room">
+                    Desde $35.000 la noche por persona en habitación*
+                  </h3>
+                  <h3 class="terms">
+                    *temporada baja. *Se debe confirmar disponibilidad antes de hacer la reserva.
+                  </h3>
+                </div>
+                <div class="column small-12 medium-3 services">
+
+                  <ul>
                     <li>
-                      <a href="#buganvilla">
-                        <i class="fi-home"></i>Buganvilla</a>
-                      <!-- <ul class="submenu-container"> <li> <a href="#buganvilla">Historia</a> </li> <li> <a href="#">Galeria</a> </li> </ul> -->
+                      <i class="fi-monitor">
+                        Televisión</i>
                     </li>
                     <li>
-                      <a href="#room">
-                        <i class="fi-photo"></i>Habitaciones</a>
-                      <!-- <ul class="submenu-container"> <li> <a href="#room">Pequeña</a> </li> <li> <a href="#room">Mediana</a> </li> <li> <a href="#room">Grande</a> </li> </ul> -->
+                      <i class="fi-rss">
+                        Internet Inalámbrico</i>
+                    </li>
+                  </ul>
+                </div>
+                <div class="column small-12 medium-3 services">
+                  <ul>
+                    <li>
+                      <i class="fi-universal-access">
+                        Parqueadero</i>
                     </li>
                     <li>
-                      <a href="#experiencias">
-                        <i class="fi-mountains"></i>Experiencias</a>
-                      <!-- <ul class="submenu-container"> <li> <a href="#">Ciclismo</a> </li> <li> <a href="#">Caminatas</a> </li> <li> <a href="#">Pesca</a> </li> </ul> -->
+                      <i class="fi-list-bullet">
+                        Servicios Generales</i>
                     </li>
-                    <li>
-                      <a href="#restaurantes">
-                        <i class="fi-marker"></i>Restaurantes</a>
-                      <!-- <ul class="submenu-container"> <li> <a href="#">Jenesano</a> </li> <li> <a href="#">Alrededores</a> </li> </li> </ul> -->
-                    </nav>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!-- services -->
+            <!-- bedrooms -->
+            <section class="container" id="bedrooms">
+              <ul class="tabs text" data-tabs="data-tabs" id="lineup-tabs">
+                <li class=" tabs-title is-active">
+                  <a href="#habitacion1">Habitacion 1</a>
+                </li>
+                <li class="tabs-title">
+                  <a href="#habitacion2">Habitacion 2</a>
+                </li>
+                <li class="tabs-title">
+                  <a href="#habitacion3">Habitacion 3</a>
+                </li>
+                <li class="tabs-title">
+                  <a href="#habitacion4">Habitacion 4</a>
+                </li>
+                <li class="tabs-title">
+                  <a href="#habitacion5">Habitacion 5</a>
+                </li>
+                <li class="tabs-title">
+                  <a href="#habitacion6">Habitacion 6</a>
+                </li>
+                <li class="tabs-title">
+                  <a href="#habitacion7">Habitacion 7</a>
+                </li>
+              </ul>
+
+              <div class="row align-center tabs-content tabs-container" data-tabs-content="lineup-tabs">
+                <div class="tabs-panel is-active" id="habitacion1">
+                  <div class="rooms-content">
+                    <img src="images/dormi.png" alt="">
+                  </div>
+                </div>
+                <div class="tabs-panel" id="habitacion2">
+                  <div class="rooms-content">
+                    <img src="images/dormi2.png" alt="">
+                  </div>
+                </div>
+                <div class="tabs-panel" id="habitacion3">
+                  <div class="rooms-content">
+                    <img src="images/dormi.png" alt="">
+                  </div>
+                </div>
+                <div class="tabs-panel" id="habitacion4">
+                  <div class="rooms-content">
+                    <img src="images/dormi2.png" alt="">
+                  </div>
+                </div>
+                <div class="tabs-panel" id="habitacion5">
+                  <div class="rooms-content">
+                    <img src="images/dormi.png" alt="">
+                  </div>
+                </div>
+                <div class="tabs-panel" id="habitacion6">
+                  <div class="rooms-content">
+                    <img src="images/dormi2.png" alt="">
+                  </div>
+                </div>
+                <div class="tabs-panel" id="habitacion7">
+                  <div class="rooms-content">
+                    <img src="images/dormi.png" alt="">
                   </div>
                 </div>
               </div>
-              <!-- menu -->
-            </div>
-          </div>
-          <!-- reserver -->
-          <div class="button-action latido" data-sticky="data-sticky" data-top-anchor="orbit-container">
-            <a href="#formulario" id="button-action" class="fi-shopping-bag" type="button" name="button">
-              Reserva Ahora!
-            </a>
-          </div>
-          <!-- reserver -->
-        </section>
-        <section id="orbit-container">
-          <!-- orbit -->
-          <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit="data-orbit">
-            <div class="orbit-wrapper">
-              <div class="orbit-controls">
-                <button class="orbit-previous">
-                  <span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-                <button class="orbit-next">
-                  <span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-              </div>
-              <ul class="orbit-container">
-                <li class="is-active orbit-slide">
-                  <figure class="orbit-figure">
-                    <img class="orbit-image" src="images/paisaje.jpeg" alt="paisaje">
-                    <figcaption class="orbit-caption">Vista Exterior BuganVilla.</figcaption>
-                  </figure>
-                </li>
-                <li class="orbit-slide">
-                  <figure class="orbit-figure">
-                    <img class="orbit-image" src="images/2.jpg" alt="Sala">
-                    <figcaption class="orbit-caption">Sala de Descanso</figcaption>
-                  </figure>
-                </li>
-                <li class="orbit-slide">
-                  <figure class="orbit-figure">
-                    <img class="orbit-image" src="images/camping.webp" alt="camping">
-                    <figcaption class="orbit-caption">Zona de Camping</figcaption>
-                  </figure>
-                </li>
-                <li class="orbit-slide">
-                  <figure class="orbit-figure">
-                    <img class="orbit-image" src="images/chimenea.webp" alt="chimenea">
-                    <figcaption class="orbit-caption">Chimeneas</figcaption>
-                  </figure>
-                </li>
-              </ul>
-            </div>
-            <nav class="orbit-bullets">
-              <button class="is-active" data-slide="0">
-                <span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-              <button data-slide="1">
-                <span class="show-for-sr">Second slide details.</span></button>
-              <button data-slide="2">
-                <span class="show-for-sr">Third slide details.</span></button>
-              <button data-slide="3">
-                <span class="show-for-sr">Fourth slide details.</span></button>
-            </nav>
-          </div>
-        </section>
-        <!-- orbit -->
-        <!-- History -->
-        <section class="container" id="buganvilla" data-magellan-target="buganvilla">
-          <div class=" row">
-            <div class="column small-12 medium-7">
+            </section>
+            <!-- bedrooms -->
+            <!-- experiences -->
+            <section class="container" id="experiencias" data-magellan-target="experiencias">
               <h1>
-                Jenesano / Finca Buganvilla</h1>
-              <h2>
-                En el año de 1833 el Presbítero Andrés María Gallo determino Bautizar el poblado "Genezzano" recordando a un poblado Italiano, que es muy parecido al nombre actual (Jenesano, Boyacá). El Nombre proviene del latín Gen Sana que significa gente sana.
-              </h2>
-              <h2>
-                En 1999 Jenesano es declarado por el fondo mixto de cultura de Boyacá como el "pueblo más lindo de Boyacá". Debido a la calidez de sus gentes, clima, paisaje, la estética urbana y las muestras culturales locales.
-              </h2>
-              <h2>
-                Se encuentra ubicado en la Provincia de Márquez del departamento de Boyacá. Está a una distancia de 30 km de Tunja. Este municipio limíta al occidente con Nuevo Colón, al oriente con Ramiriquí, al norte con el municipio de Boyacá y al sur con Tibaná.
+                Experiencias</h1>
+              <div class=" row small-collapse">
+                <div class="column small-12 medium-4">
+                  <div id="img-caminata">
+                    <div id="info">
+                      <p id="headline">Caminatas</p>
+                      <p id="descripcion">Se puede subir por la cascada antes de que Boyacoman construya el hotel, o hacer una viacruces y meterse por donde el gui Cayetano diga.</p>
+                      <a href="#formulario" class="info">Más info</a>
+                    </div>
+                    <p id="title-p">Caminatas</p>
+                  </div>
+                </div>
+                <div class="column small-12 medium-4">
+                  <div id="img-ciclismo">
+                    <div id="info">
+                      <p id="headline">Ciclismo Extremo</p>
+                      <p id="descripcion">venga a subir las montañas mas berracas en jenesano, ramiriqui, y caigase como se cayo el Daniel que se fue de mula, por estar jorobiando por alla. mentiras es mejor por la palma</p>
+                      <a href="#formulario" class="info">Más info</a>
+                    </div>
+                    <p id="title-p">Ciclismo Extremo</p>
+                  </div>
+                </div>
+                <div class="column small-12 medium-4">
+                  <div id="img-cabalgata">
+                    <div id="info">
+                      <p id="headline">Cabalgata</p>
+                      <p id="descripcion">Se alquilan caballos pa que monten con los chinos se distraigan un ratico</p>
+                      <a href="#formulario" class="info">Más info</a>
+                    </div>
+                    <p id="title-p">Cabalgata</p>
+                  </div>
+                </div>
+              </div>
+              <div class=" row small-collapse">
+                <div class="column small-12 medium-4">
+                  <div id="img-caminata">
+                    <div id="info">
+                      <p id="headline">Caminatas</p>
+                      <p id="descripcion">Se puede subir por la cascada antes de que Boyacoman construya el hotel, o hacer una viacruces y meterse por donde el gui Cayetano diga.</p>
+                      <a href="#formulario" class="info">Más info</a>
+                    </div>
+                    <p id="title-p">Caminatas</p>
+                  </div>
+                </div>
+                <div class="column small-12 medium-4">
+                  <div id="img-ciclismo">
+                    <div id="info">
+                      <p id="headline">Ciclismo Extremo</p>
+                      <p id="descripcion">venga a subir las montañas mas berracas en jenesano, ramiriqui, y caigase como se cayo el Daniel que se fue de mula, por estar jorobiando por alla. mentiras es mejor por la palma</p>
+                      <a href="#formulario" class="info">Más info</a>
+                    </div>
+                    <p id="title-p">Ciclismo Extremo</p>
+                  </div>
+                </div>
+                <div class="column small-12 medium-4">
+                  <div id="img-cabalgata">
+                    <div id="info">
+                      <p id="headline">Cabalgata</p>
+                      <p id="descripcion">Se alquilan caballos pa que monten con los chinos se distraigan un ratico</p>
+                      <a href="#formulario" class="info">Más info</a>
+                    </div>
+                    <p id="title-p">Cabalgata</p>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class=" row small-collapse "> <div class="column small-12 medium-4"> <figure class="orbit-figure"> <img class="orbit-image" src="images/ciclismo.jpg" alt="ciclismo"> <figcaption class="orbit-caption">Ciclismo Aventura</figcaption> </figure>
+              </div> <div class="column small-12 medium-4"> <figure class="orbit-figure"> <img class="orbit-image" src="images/cabalgata.jpg" alt="caminata"> <figcaption class="orbit-caption">Caminatas Extremas</figcaption> </figure> </div> <div class="column
+              small-12 medium-4"> <figure class="orbit-figure"> <img class="orbit-image" src="images/caminata.jpg" alt="cabalgata"> <figcaption class="orbit-caption">Cabalgatas</figcaption> </figure> </div> </div> -->
 
-              </h2>
-              <h2>
-                Finca BuganVilla es una hermosa villa ubicada a 5 minutos de Jenesano Boyaca. Ambiente familiar, zonas verdes, zona de camping, chimeneas, acceso al río, zona de cultivos, clima cálido-templado, servicio de restaurante, variedad de aves, juegos de
-                mesa, rana y mucho mas!
-              </h2>
-            </div>
+              <!-- experiences -->
+              <!-- restaurants -->
+              <section class="container" id="restaurantes" data-magellan-target="restaurantes">
+                <h1>
+                  Restaurantes</h1>
+                <div class="row align-spaced">
+                  <div class="column small-12 medium-6">
+                    <div class="img.restaurante">
+                      <img src="images/cascada.jpg" alt="restaurante">
+                    </div>
+                    <div class="info-restaurantes">
+                      <h3>
+                        Cascada de Fuego
+                      </h3>
+                      <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
+                      </p>
+                      <p>Contacto: 555 555 5555</p>
+                      <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
+                    </div>
+                    <div class="tipo-comida">
+                      <p>Tipo de Comida:</p>
+                      <ul>
+                        <li>Corrientazo</li>
+                        <li>Ejecutivo</li>
+                        <li>A la Carta</li>
+                        <li>Especial Sopas</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="column small-12 medium-6">
+                    <div class="img.restaurante">
+                      <img src="images/restaurante.jpg" alt="restaurante">
+                    </div>
+                    <div class="info-restaurantes">
+                      <h3>
+                        Restaurante Nonceta
+                      </h3>
+                      <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
+                      </p>
+                      <p>Contacto: 555 555 5555</p>
+                      <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
+                    </div>
+                    <div class="tipo-comida">
+                      <p>Tipo de Comida:</p>
+                      <ul>
+                        <li>Corrientazo</li>
+                        <li>Ejecutivo</li>
+                        <li>A la Carta</li>
+                        <li>Especial Sopas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="row align-spaced">
+                  <div class="column small-12 medium-6">
+                    <div class="img.restaurante">
+                      <img src="images/altagracia.jpg" alt="restaurante">
+                    </div>
+                    <div class="info-restaurantes">
+                      <h3>
+                        Restaurante Altagracia
+                      </h3>
+                      <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
+                      </p>
+                      <p>Contacto: 555 555 5555</p>
+                      <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
+                    </div>
+                    <div class="tipo-comida">
+                      <p>Tipo de Comida:</p>
+                      <ul>
+                        <li>Corrientazo</li>
+                        <li>Ejecutivo</li>
+                        <li>A la Carta</li>
+                        <li>Especial Sopas</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="column small-12 medium-6">
+                    <div class="img.restaurante">
+                      <img src="images/villas.jpg" alt="restaurante">
+                    </div>
+                    <div class="info-restaurantes">
+                      <h3>
+                        Restaurante Las Villas
+                      </h3>
+                      <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
+                      </p>
+                      <p>Contacto: 555 555 5555</p>
+                      <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
+                    </div>
+                    <div class="tipo-comida">
+                      <p>Tipo de Comida:</p>
+                      <ul>
+                        <li>Corrientazo</li>
+                        <li>Ejecutivo</li>
+                        <li>A la Carta</li>
+                        <li>Especial Sopas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="row align-spaced">
+                  <div class="column small-12 medium-6">
+                    <div class="img.restaurante">
+                      <img src="images/restaurante.jpg" alt="restaurante">
+                    </div>
+                    <div class="info-restaurantes">
+                      <h3>
+                        Cascada de Fuego
+                      </h3>
+                      <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
+                      </p>
+                      <p>Contacto: 555 555 5555</p>
+                      <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
+                    </div>
+                    <div class="tipo-comida">
+                      <p>Tipo de Comida:</p>
+                      <ul>
+                        <li>Corrientazo</li>
+                        <li>Ejecutivo</li>
+                        <li>A la Carta</li>
+                        <li>Especial Sopas</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="column small-12 medium-6">
+                    <div class="img.restaurante">
+                      <img src="images/restaurante.jpg" alt="restaurante">
+                    </div>
+                    <div class="info-restaurantes">
+                      <h3>
+                        Cascada de Fuego
+                      </h3>
+                      <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
+                      </p>
+                      <p>Contacto: 555 555 5555</p>
+                      <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
+                    </div>
+                    <div class="tipo-comida">
+                      <p>Tipo de Comida:</p>
+                      <ul>
+                        <li>Corrientazo</li>
+                        <li>Ejecutivo</li>
+                        <li>A la Carta</li>
+                        <li>Especial Sopas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
 
-            <div class="column small-12 medium-5 align-self-middle location">
-              <div class="location" data-interchange="[assets/map.html, small], [assets/map.html, medium]"></div>
-            </div>
-          </div>
-        </section>
-        <!-- History -->
-        <!-- services -->
-        <section class="container" id="room" data-magellan-target="room">
-          <h1>
-            Habitaciones Buganvilla</h1>
-          <div class="row subtitle collapse">
-            <div class="column medium-6">
-              <h3 class="title-room">Precio persona/noche en cualquier acomodacion:
-              </h3>
-            </div>
-            <div class="column medium-6">
-              <h3 class="title-room">Servicios:
-              </h3>
-            </div>
-          </div>
-          <div class="row collapse">
-            <div class="column small-12 medium-6">
+              </div>
+            </section>
+            <!-- restaurants -->
+            <!-- form -->
 
-              <h3 class="price-room">Desde $15.000 la noche en zona de camping*
-              </h3>
-              <h3 class="price-room">
-                Desde $35.000 la noche por persona en habitación*
-              </h3>
-              <h3 class="terms">
-                *temporada baja. *Se debe confirmar disponibilidad antes de hacer la reserva.
-              </h3>
-            </div>
-            <div class="column small-12 medium-3 services">
+            <section class="contact-us-section container" id="formulario" data-magellan-target="formulario">
+              <div class="row medium-unstack">
+                <div class="columns contact-us-section-left">
+                  <h1 class="contact-us-header">Contacta para Reservar</h1>
 
-              <ul>
-                <li>
-                  <i class="fi-monitor">
-                    Televisión</i>
-                </li>
-                <li>
-                  <i class="fi-rss">
-                    Internet Inalámbrico</i>
-                </li>
-              </ul>
-            </div>
-            <div class="column small-12 medium-3 services">
-              <ul>
-                <li>
-                  <i class="fi-universal-access">
-                    Parqueadero</i>
-                </li>
-                <li>
-                  <i class="fi-list-bullet">
-                    Servicios Generales</i>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <!-- services -->
-        <!-- bedrooms -->
-        <section class="container" id="bedrooms">
-          <ul class="tabs text" data-tabs="data-tabs" id="lineup-tabs">
-            <li class=" tabs-title is-active">
-              <a href="#habitacion1">Habitacion 1</a>
-            </li>
-            <li class="tabs-title">
-              <a href="#habitacion2">Habitacion 2</a>
-            </li>
-            <li class="tabs-title">
-              <a href="#habitacion3">Habitacion 3</a>
-            </li>
-            <li class="tabs-title">
-              <a href="#habitacion4">Habitacion 4</a>
-            </li>
-            <li class="tabs-title">
-              <a href="#habitacion5">Habitacion 5</a>
-            </li>
-            <li class="tabs-title">
-              <a href="#habitacion6">Habitacion 6</a>
-            </li>
-            <li class="tabs-title">
-              <a href="#habitacion7">Habitacion 7</a>
-            </li>
-          </ul>
-
-          <div class="row align-center tabs-content tabs-container" data-tabs-content="lineup-tabs">
-            <div class="tabs-panel is-active" id="habitacion1">
-              <div class="rooms-content">
-                <img src="images/dormi.png" alt="">
-              </div>
-            </div>
-            <div class="tabs-panel" id="habitacion2">
-              <div class="rooms-content">
-                <img src="images/dormi2.png" alt="">
-              </div>
-            </div>
-            <div class="tabs-panel" id="habitacion3">
-              <div class="rooms-content">
-                <img src="images/dormi.png" alt="">
-              </div>
-            </div>
-            <div class="tabs-panel" id="habitacion4">
-              <div class="rooms-content">
-                <img src="images/dormi2.png" alt="">
-              </div>
-            </div>
-            <div class="tabs-panel" id="habitacion5">
-              <div class="rooms-content">
-                <img src="images/dormi.png" alt="">
-              </div>
-            </div>
-            <div class="tabs-panel" id="habitacion6">
-              <div class="rooms-content">
-                <img src="images/dormi2.png" alt="">
-              </div>
-            </div>
-            <div class="tabs-panel" id="habitacion7">
-              <div class="rooms-content">
-                <img src="images/dormi.png" alt="">
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- bedrooms -->
-        <!-- experiences -->
-        <section class="container" id="experiencias" data-magellan-target="experiencias">
-          <h1>
-            Experiencias</h1>
-          <div class=" row small-collapse">
-            <div class="column small-12 medium-4">
-              <div id="img-caminata">
-                <div id="info">
-                  <p id="headline">Caminatas</p>
-                  <p id="descripcion">Se puede subir por la cascada antes de que Boyacoman construya el hotel, o hacer una viacruces y meterse por donde el gui Cayetano diga.</p>
-                  <a href="#formulario" class="info">Más info</a>
-                </div>
-                <p id="title-p">Caminatas</p>
-              </div>
-            </div>
-            <div class="column small-12 medium-4">
-              <div id="img-ciclismo">
-                <div id="info">
-                  <p id="headline">Ciclismo Extremo</p>
-                  <p id="descripcion">venga a subir las montañas mas berracas en jenesano, ramiriqui, y caigase como se cayo el Daniel que se fue de mula, por estar jorobiando por alla. mentiras es mejor por la palma</p>
-                  <a href="#formulario" class="info">Más info</a>
-                </div>
-                <p id="title-p">Ciclismo Extremo</p>
-              </div>
-            </div>
-            <div class="column small-12 medium-4">
-              <div id="img-cabalgata">
-                <div id="info">
-                  <p id="headline">Cabalgata</p>
-                  <p id="descripcion">Se alquilan caballos pa que monten con los chinos se distraigan un ratico</p>
-                  <a href="#formulario" class="info">Más info</a>
-                </div>
-                <p id="title-p">Cabalgata</p>
-              </div>
-            </div>
-          </div>
-          <div class=" row small-collapse">
-            <div class="column small-12 medium-4">
-              <div id="img-caminata">
-                <div id="info">
-                  <p id="headline">Caminatas</p>
-                  <p id="descripcion">Se puede subir por la cascada antes de que Boyacoman construya el hotel, o hacer una viacruces y meterse por donde el gui Cayetano diga.</p>
-                  <a href="#formulario" class="info">Más info</a>
-                </div>
-                <p id="title-p">Caminatas</p>
-              </div>
-            </div>
-            <div class="column small-12 medium-4">
-              <div id="img-ciclismo">
-                <div id="info">
-                  <p id="headline">Ciclismo Extremo</p>
-                  <p id="descripcion">venga a subir las montañas mas berracas en jenesano, ramiriqui, y caigase como se cayo el Daniel que se fue de mula, por estar jorobiando por alla. mentiras es mejor por la palma</p>
-                  <a href="#formulario" class="info">Más info</a>
-                </div>
-                <p id="title-p">Ciclismo Extremo</p>
-              </div>
-            </div>
-            <div class="column small-12 medium-4">
-              <div id="img-cabalgata">
-                <div id="info">
-                  <p id="headline">Cabalgata</p>
-                  <p id="descripcion">Se alquilan caballos pa que monten con los chinos se distraigan un ratico</p>
-                  <a href="#formulario" class="info">Más info</a>
-                </div>
-                <p id="title-p">Cabalgata</p>
-              </div>
-            </div>
-          </div>
-          <!-- <div class=" row small-collapse "> <div class="column small-12 medium-4"> <figure class="orbit-figure"> <img class="orbit-image" src="images/ciclismo.jpg" alt="ciclismo"> <figcaption class="orbit-caption">Ciclismo Aventura</figcaption> </figure>
-          </div> <div class="column small-12 medium-4"> <figure class="orbit-figure"> <img class="orbit-image" src="images/cabalgata.jpg" alt="caminata"> <figcaption class="orbit-caption">Caminatas Extremas</figcaption> </figure> </div> <div class="column
-          small-12 medium-4"> <figure class="orbit-figure"> <img class="orbit-image" src="images/caminata.jpg" alt="cabalgata"> <figcaption class="orbit-caption">Cabalgatas</figcaption> </figure> </div> </div> -->
-
-          <!-- experiences -->
-          <!-- restaurants -->
-          <section class="container" id="restaurantes" data-magellan-target="restaurantes">
-            <h1>
-              Restaurantes</h1>
-            <div class="row align-spaced">
-              <div class="column small-12 medium-6">
-                <div class="img.restaurante">
-                  <img src="images/cascada.jpg" alt="restaurante">
-                </div>
-                <div class="info-restaurantes">
-                  <h3>
-                    Cascada de Fuego
-                  </h3>
-                  <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
-                  </p>
-                  <p>Contacto: 555 555 5555</p>
-                  <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
-                </div>
-                <div class="tipo-comida">
-                  <p>Tipo de Comida:</p>
-                  <ul>
-                    <li>Corrientazo</li>
-                    <li>Ejecutivo</li>
-                    <li>A la Carta</li>
-                    <li>Especial Sopas</li>
+                  <ul class="contact-us-list">
+                    <li class="address">
+                      <i class="fi-address-book"></i>
+                      Calle siempre viva No. 123, Jenesano-Boyacá</li>
+                    <li class="email">
+                      <i class="fi-mail"></i>
+                      <a href="mailto:">
+                        contacto@hospedajebuganvilla.com</a>
+                    </li>
+                    <li class="phone">
+                      <i class="fi-telephone"></i>
+                      (57) 320 8467809
+                    </li>
                   </ul>
+                  <!-- <div class="responsive-embed"> <img
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.1164570103374!2d-73.35890610626674!3d5.403220300963146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a841a56e2584d%3A0x8fd9a21c98efb53f!2sBuganvilla+Hospedaje+y+camping!5e0!3m2!1ses-419!2sco!4v1517601809794"
+                  alt=""/> </div> -->
+                </div>
+                <div class="columns contact-us-section-right">
+                  <h1 class="contact-us-header">Te Contactamos</h1>
+                  <form class="contact-us-form" novalidate="novalidate" data-abide="data-abide">
+                    <div data-abide-error="data-abide-error" class="row column small-12 medium-6 text-center" style="display:none">
+                      <p>
+                        <i class="fi-alert">
+                          Ingresa un correo electronico valido</i>
+                      </p>
+                    </div>
+                    <input type="text" placeholder="Nombre Completo">
+                    <input type="number" placeholder="Telefono de Contacto">
+                    <input type="email" placeholder="Correo Electronico" required="required">
+                    <textarea name="message" id="" rows="8" placeholder="Dejanos saber tus inquietudes"></textarea>
+                    <div class="contact-us-form-actions">
+                      <input type="submit" class="button" value="Enviar"/>
+                    </div>
+                  </form>
                 </div>
               </div>
-              <div class="column small-12 medium-6">
-                <div class="img.restaurante">
-                  <img src="images/restaurante.jpg" alt="restaurante">
-                </div>
-                <div class="info-restaurantes">
-                  <h3>
-                    Restaurante Nonceta
-                  </h3>
-                  <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
-                  </p>
-                  <p>Contacto: 555 555 5555</p>
-                  <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
-                </div>
-                <div class="tipo-comida">
-                  <p>Tipo de Comida:</p>
-                  <ul>
-                    <li>Corrientazo</li>
-                    <li>Ejecutivo</li>
-                    <li>A la Carta</li>
-                    <li>Especial Sopas</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="row align-spaced">
-              <div class="column small-12 medium-6">
-                <div class="img.restaurante">
-                  <img src="images/altagracia.jpg" alt="restaurante">
-                </div>
-                <div class="info-restaurantes">
-                  <h3>
-                    Restaurante Altagracia
-                  </h3>
-                  <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
-                  </p>
-                  <p>Contacto: 555 555 5555</p>
-                  <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
-                </div>
-                <div class="tipo-comida">
-                  <p>Tipo de Comida:</p>
-                  <ul>
-                    <li>Corrientazo</li>
-                    <li>Ejecutivo</li>
-                    <li>A la Carta</li>
-                    <li>Especial Sopas</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="column small-12 medium-6">
-                <div class="img.restaurante">
-                  <img src="images/villas.jpg" alt="restaurante">
-                </div>
-                <div class="info-restaurantes">
-                  <h3>
-                    Restaurante Las Villas
-                  </h3>
-                  <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
-                  </p>
-                  <p>Contacto: 555 555 5555</p>
-                  <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
-                </div>
-                <div class="tipo-comida">
-                  <p>Tipo de Comida:</p>
-                  <ul>
-                    <li>Corrientazo</li>
-                    <li>Ejecutivo</li>
-                    <li>A la Carta</li>
-                    <li>Especial Sopas</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="row align-spaced">
-              <div class="column small-12 medium-6">
-                <div class="img.restaurante">
-                  <img src="images/restaurante.jpg" alt="restaurante">
-                </div>
-                <div class="info-restaurantes">
-                  <h3>
-                    Cascada de Fuego
-                  </h3>
-                  <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
-                  </p>
-                  <p>Contacto: 555 555 5555</p>
-                  <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
-                </div>
-                <div class="tipo-comida">
-                  <p>Tipo de Comida:</p>
-                  <ul>
-                    <li>Corrientazo</li>
-                    <li>Ejecutivo</li>
-                    <li>A la Carta</li>
-                    <li>Especial Sopas</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="column small-12 medium-6">
-                <div class="img.restaurante">
-                  <img src="images/restaurante.jpg" alt="restaurante">
-                </div>
-                <div class="info-restaurantes">
-                  <h3>
-                    Cascada de Fuego
-                  </h3>
-                  <p>Dirección: cll 7 # 2 -1 Jenesano, Boyaca
-                  </p>
-                  <p>Contacto: 555 555 5555</p>
-                  <a href="https://goo.gl/maps/64B39BR5ckF2" target="_blank">Ubicación en el mapa</a>
-                </div>
-                <div class="tipo-comida">
-                  <p>Tipo de Comida:</p>
-                  <ul>
-                    <li>Corrientazo</li>
-                    <li>Ejecutivo</li>
-                    <li>A la Carta</li>
-                    <li>Especial Sopas</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            </section>
+
+            <!-- form -->
+            <footer>
+              <div class="footer"></div>
+            </footer>
 
           </div>
-        </section>
-        <!-- restaurants -->
-        <!-- form -->
-
-        <section class="contact-us-section container" id="formulario" data-magellan-target="formulario">
-          <div class="row medium-unstack">
-            <div class="columns contact-us-section-left">
-              <h1 class="contact-us-header">Contacta para Reservar</h1>
-
-              <ul class="contact-us-list">
-                <li class="address">
-                  <i class="fi-address-book"></i>
-                  Calle siempre viva No. 123, Jenesano-Boyacá</li>
-                <li class="email">
-                  <i class="fi-mail"></i>
-                  <a href="mailto:">
-                    contacto@hospedajebuganvilla.com</a>
-                </li>
-                <li class="phone">
-                  <i class="fi-telephone"></i>
-                  (57) 320 8467809
-                </li>
-              </ul>
-              <!-- <div class="responsive-embed"> <img
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.1164570103374!2d-73.35890610626674!3d5.403220300963146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a841a56e2584d%3A0x8fd9a21c98efb53f!2sBuganvilla+Hospedaje+y+camping!5e0!3m2!1ses-419!2sco!4v1517601809794"
-              alt=""/> </div> -->
-            </div>
-            <div class="columns contact-us-section-right">
-              <h1 class="contact-us-header">Te Contactamos</h1>
-              <form class="contact-us-form" novalidate="novalidate" data-abide="data-abide">
-                <div data-abide-error="data-abide-error" class="row column small-12 medium-6 text-center" style="display:none">
-                  <p>
-                    <i class="fi-alert">
-                      Ingresa un correo electronico valido</i>
-                  </p>
-                </div>
-                <input type="text" placeholder="Nombre Completo">
-                <input type="number" placeholder="Telefono de Contacto">
-                <input type="email" placeholder="Correo Electronico" required="required">
-                <textarea name="message" id="" rows="8" placeholder="Dejanos saber tus inquietudes"></textarea>
-                <div class="contact-us-form-actions">
-                  <input type="submit" class="button" value="Enviar"/>
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
-
-        <!-- form -->
-        <footer>
-          <div class="footer"></div>
-        </footer>
-
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/vendor/what-input.js"></script>
-        <script src="js/vendor/foundation.js"></script>
-        <script src="js/app.js"></script>
+        </div>
       </div>
+
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/vendor/what-input.js"></script>
+      <script src="js/vendor/foundation.js"></script>
+      <script src="js/app.js"></script>
+
       <!-- <section> <div class="image-container"></div> </section> -->
     </body>
   </html>

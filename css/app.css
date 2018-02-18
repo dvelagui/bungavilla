@@ -401,3 +401,51 @@ element.style {
   border: 1px solid grey;
   height: 200px;
 }
+
+@media screen and (max-width: 1015px) {
+  .menu li a {
+    font-size: 20px;
+  }
+  #button-action {
+    padding: 15px;
+    font-size: 20px;
+  }
+  #restaurantes img {
+    padding: 45px 0;
+  }
+  #orbit-container img {
+    margin-top: 0;
+  }
+  .orbit-slide {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #button-action {
+    padding: 15px;
+    font-size: 20px;
+  }
+  #offCanvas {
+    color: white;
+    z-index: 99;
+  }
+  #menu li a {
+    text-transform: uppercase;
+  }
+  .menu li a {
+    background-color: white;
+  }
+  .menu li a:hover {
+    color: #2ba6cb;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .orbit-slide {
+    height: 300px;
+  }
+  #orbit-container figcaption {
+    font-size: 20px;
+  }
+}
