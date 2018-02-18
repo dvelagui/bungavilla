@@ -246,17 +246,23 @@ element.style {
 }
 
 #img-caminata {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   /*sólo para ejemplo*/
-  background-image: url("../images/caminata.jpg");
+  background-image: url("../images/paisaje.jpeg");
+  background-repeat: no-repeat;
 }
 
 #img-cabalgata {
-  width: 100%;
+  width: auto;
   height: 100%;
   /*sólo para ejemplo*/
   background-image: url("../images/cabalgata.jpg");
+}
+
+#experiencias img {
+  width: 100%;
+  height: auto;
 }
 
 #info {
@@ -399,7 +405,7 @@ element.style {
 .footer {
   background-color: rgb(205, 208, 219);
   border: 1px solid grey;
-  height: 200px;
+  height: 50px;
 }
 
 @media screen and (max-width: 1015px) {
