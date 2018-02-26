@@ -37,13 +37,13 @@ a img {
   margin-right: 5px;
 }
 
-/* .column {
+.column {
   border: 1px solid blue;
 }
 
 .row {
   border: 1px solid red;
-} */
+}
 
 #logo-container .column {
   margin-top: 10px;
@@ -200,7 +200,7 @@ element.style {
 }
 
 #bedrooms {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 #bedrooms .tabs-title {
@@ -223,13 +223,29 @@ element.style {
   color: #2ba6cb;
 }
 
-#bedrooms img {
-  height: 369px;
-  max-width: none;
+#bedrooms .orbit-container {
+  height: 350px;
+  width: 350px;
 }
+
+#bedrooms .rooms-content img {
+  width: auto;
+  height: 100%;
+}
+
+/* #bedrooms img {
+  height: 100%;
+  width: 100%;
+} */
 
 #bedrooms .text {
   text-align: center;
+}
+
+#bedrooms h3 {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
 }
 
 .tabs, .tabs-content {
@@ -247,7 +263,7 @@ element.style {
 
 #img-caminata {
   width: auto;
-  height: auto;
+  height: 100%;
   /*sólo para ejemplo*/
   background-image: url("../images/paisaje.jpeg");
   background-repeat: no-repeat;
@@ -314,7 +330,6 @@ element.style {
   font-size: 1rem;
   text-align: center;
   transition: margin-top 0.4s;
-  margin-top: 100px;
   padding: 10px;
 }
 
@@ -333,7 +348,7 @@ element.style {
 #title-p {
   color: white;
   font-size: 20px;
-  margin-top: -50px;
+  margin: -50px auto 0 auto;
   background-color: rgba(31, 31, 31, 0.9);
   padding: 10px;
 }
@@ -342,10 +357,6 @@ element.style {
 
 #experiencias .row {
   margin-top: 10px;
-}
-
-#experiencias .column {
-  border: 1px solid rgb(187, 185, 185);
 }
 
 #experiencias .info {
@@ -443,7 +454,7 @@ element.style {
     text-transform: uppercase;
   }
   .menu li a {
-    background-color: white;
+    background-color: rgba(255, 254, 254, 0.8);
   }
   .menu li a:hover {
     color: #2ba6cb;
