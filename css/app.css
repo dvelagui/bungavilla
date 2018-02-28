@@ -37,13 +37,13 @@ a img {
   margin-right: 5px;
 }
 
-.column {
+/* .column {
   border: 1px solid blue;
 }
 
 .row {
   border: 1px solid red;
-}
+} */
 
 #logo-container .column {
   margin-top: 10px;
@@ -230,7 +230,7 @@ element.style {
 
 #bedrooms .rooms-content img {
   width: auto;
-  height: 100%;
+  height: auto;
 }
 
 /* #bedrooms img {
@@ -246,6 +246,10 @@ element.style {
   font-size: 20px;
   text-align: center;
   font-style: italic;
+}
+
+#habitaciones .room {
+  margin: 30px 20px;
 }
 
 .tabs, .tabs-content {
